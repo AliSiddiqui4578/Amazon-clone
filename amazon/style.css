@@ -1,0 +1,365 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+   align-items: center;
+    justify-content: space-evenly; 
+   
+}
+
+.navlogo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-size: cover;
+   background-image: url(https://i.pinimg.com/736x/c9/e8/8e/c9e88e52ad0ab056e66e5b956bc786f9.jpg);
+    height: 50px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+   
+}
+.border
+{
+    border:1.5px solid transparent;
+    margin:5px;
+}
+.border:hover{
+    border:1px solid white;
+    border-radius: 3px;
+}
+.p1
+{
+    font-size: 11px;
+   color:#CCCCCC;
+   margin-left: 15px;
+}
+.p2
+{
+    font-size: 14px;
+    color: white;
+    margin-left: 3px;
+}
+.addicon
+{
+    display: flex;
+    align-items: center;
+}
+.navsearch
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left:10px ;
+    background-color: orange;
+    width:620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.navsearch:hover{
+    border:2px solid orange;
+}
+
+.select
+{
+    background-color: #F3F3F3;
+    width:50px;
+    text-align: center;
+    border-top-left-radius:4px ;
+    border-bottom-left-radius: 4px;
+     border:none; 
+}
+.search
+{
+    width:100%; 
+    background-color: white;
+    border:none;
+    font-size: larger;
+}
+.searchicon
+{
+    width:40px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: 1.2rem;
+    background-color:#febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color:black;
+}
+.navsignin
+{
+    background-color: black;
+}
+.sign1
+{
+    font-size: 0.7rem;
+}
+.sign2
+{
+    font-size: 1rem;
+    font-weight: 700;    
+}
+.return1{
+    background-color: black;
+
+} 
+.return1
+{
+    font-size: 0.7rem;
+}
+.return2
+{
+    font-size: 1rem;
+    font-weight: 700;    
+}
+.cart i
+{
+font-size: 30px;
+}
+.cart 
+{
+font-size: 0.85rem;
+font-weight: 700;
+}
+.panel
+{
+    height: 40px;
+    background-color: #222f3d;
+    display:flex;
+    color:white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.panel-options p
+{
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-options
+{
+    width:70%;
+    font-size: 0.9rem;
+  
+}
+.panel-deals
+{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.panel-all
+{
+    font-size: 1rem;
+    font-weight: 700;
+} 
+.hero-section
+{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/devjyoti/GW/Uber/Nov/uber_new_high._CB537689643_.jpg);
+    background-size: cover;
+    height: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-mesg
+{
+    background-color: #fafaf7;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    width:80%;
+     margin-top: 230px; 
+}
+.hero-mesg a{
+    color:#a17c98;
+}
+.box
+{
+    border:2px solid black;
+    height: 400px;
+    width:23%;  
+    background-color: white;
+    border:none;
+    padding:20px 0px 15px;
+}
+.shop-section
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: space-evenly;
+     background-color: #ededeb;
+}
+.box1-img
+{
+    background-size: cover;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/Stores-Gaming/FinalGraphics/Fuji_Gaming_store_Dashboard_card_2x_EN._SY608_CB564799420_.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box1-cont{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.box1-cont p{
+    color:#a17c98;
+}
+ .box2-img
+{
+    background-size: cover;
+    background-image: url(https://m.media-amazon.com/images/I/717Q2swzhBL.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+} 
+.box3-img
+{
+    background-size: cover;
+    background-image: url(https://cdn.shopify.com/s/files/1/0646/1551/4330/files/Importance_of_Personal_Care_Products_480x480.webp?v=1673811372);
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+} 
+.box4-img
+{
+    background-size: cover;
+    background-image: url(https://i.pinimg.com/736x/d4/f7/4b/d4f74b6b6885f9ce77eb1a9700c339c9.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+} 
+.box5-img
+{
+    background-size: cover;
+    background-image: url(https://img.freepik.com/free-photo/sports-tools_53876-138077.jpg?semt=ais_items_boosted&w=740);
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+} 
+.box6-img
+{
+    background-size: cover;
+    background-image: url(https://www.skechers.in/dw/image/v2/BGNZ_PRD/on/demandware.static/-/Sites-skechersin-Library/default/dw0bab9fb9/Category-Landing/Category-Mobile/Mens-New/Shop_by_Style_men_mobile_slip-ins.jpg?sw=780&q=95);
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+} 
+.box7-img
+{
+    background-size: cover;
+    background-image: url(https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?cs=srgb&dl=pexels-victorfreitas-841130.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+} 
+.box8-img
+{
+    background-size:cover;
+    background-image: url(https://i.pinimg.com/736x/46/43/75/46437511c989265e291878567d2214b3.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+} 
+/* footer */
+/* footer{
+    margin-top: 15px;
+} */
+.foot-p1
+{
+    background-color: #37475a;
+    color:white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+}
+.foot-p2
+{
+    background-color: #222f3d;
+    color:white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    
+ 
+}
+ul a{
+    display: block;
+    font-size: 0.9rem;
+    margin-top:15px;
+    color: #dddddd;
+}
+ul p{
+    font-weight: 700;
+    margin-top: 25px;
+}
+ul{
+    margin-top:20px;
+}
+.foot-p3
+{
+    background-color:#222f3d ;
+    color: white;
+    border-top:0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo2
+{
+    background-size: cover;
+    background-image: url(https://i.pinimg.com/736x/f8/65/1e/f8651e5f209bfa378866419f4168f4a6.jpg);
+     height: 60px;
+     width: 100px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+    
+}
+.foot-p4
+{
+    background-color: #131a22;
+    height: 75px;
+    color:#dddddd;
+   
+}
+.pages
+{
+   text-align: center;
+   font-size: 0.7rem;
+   padding-top:20px;
+   
+}
+.copyright
+{
+    text-align: center;
+    font-size: 0.7rem;
+    padding-top:5px;
+}
